@@ -1,11 +1,11 @@
     # navigate to the workspace
-    cd ~/catkin_ws/src/
+    cd ~/catkin_ws/src/sahayak_bot
     
     # clone the repo
-    git clone https://github.com/uver29/ebot_controller.git
+    git clone https://github.com/uver29/ebot_controller.git ebot_controller
     
     # build the package
-    cd ..
+    cd ~/catkin_ws
     catkin build
     
     # make the script executable
